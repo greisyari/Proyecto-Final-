@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatos de Ensueño</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Zapatos de Ensueño</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Carrito</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="nueva-coleccion.html">Nueva colección</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="p-5 text-center oo text-white">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a Nuestra Tienda</h1>
+            <p class="lead">Calzado que enamora a primera pisada.</p>
+            <a href="#productos" class="btn btn-warning btn-lg mt-3">Ver productos</a>
+        </div>
+    </header>
+
+    <main class="container my-5" id="productos">
+        <h2 class="text-center mb-4">Nuestros Productos Destacados</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c8636740a7641489efcf492ffb6d0f6_9366/Zapatillas_Superstar_II_Negro_JH5470_01_standard.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatillas Casuales</h5>
+                        <p class="card-text">Ideales para tu día a día, con un estilo cómodo y moderno.</p>
+                        <p class="fw-bold">$35.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Casuales', 35.00, '38')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_691416-MLM86287838335_062025-T-bota-plataforma-de-piel-8-ojillos-intercambio-aesthetic.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Botas de Invierno</h5>
+                        <p class="card-text">Perfectas para el frío, mantén tus pies calientes y a la moda.</p>
+                        <p class="fw-bold">$50.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Botas de Invierno', 50.00, '39')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/17515178-1000-1000/imageUrl_1.jpg?v=638506153963100000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandalias de Verano</h5>
+                        <p class="card-text">Frescas y ligeras, las compañeras perfectas para el verano.</p>
+                        <p class="fw-bold">$25.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Sandalias de Verano', 25.00, '37')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/20523058-800-800/2742922.jpg?v=638756251669330000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacones Elegantes</h5>
+                        <p class="card-text">Que estilizan la figura y añaden un toque de sofisticación.</p>
+                        <p class="fw-bold">$40.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Tacones Elegantes', 40.00, '37')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://weide.cl/cdn/shop/files/GH133-NEGRO-1.webp?v=1747996565" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacos Fiesta</h5>
+                        <p class="card-text">Diseñados para ocasiones especiales.</p>
+                        <p class="fw-bold">$38.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Tacos Fiesta', 38.00, '38')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/21814828-1000-1000/2909873.jpg?v=638901832911300000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatillas Deportivas</h5>
+                        <p class="card-text">Diseñadas para actividades físicas y deportes.</p>
+                        <p class="fw-bold">$42.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/21424593-1000-1000/2917510.jpg?v=638863051659570000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatillas Urbanas</h5>
+                        <p class="card-text">Diseñadas para tu comodidad</p>
+                        <p class="fw-bold">$30.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/20637351-1000-1000/2825965_1.jpg?v=638767930913070000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tacones</h5>
+                        <p class="card-text">Tacones creados para tu elegancia</p>
+                        <p class="fw-bold">$55.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/20437526-1000-1000/2734925.jpg?v=638739002567400000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mocacines</h5>
+                        <p class="card-text">mocacines especiales para ti</p>
+                        <p class="fw-bold">$30.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://oechsle.vteximg.com.br/arquivos/ids/21161216-1000-1000/2837162.jpg?v=638830750176130000" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandalias de playa</h5>
+                        <p class="card-text">Tus sandalias favoritas para la playa</p>
+                        <p class="fw-bold">$25.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://media.falabella.com/falabellaPE/20981294/w=1500,h=1500,fit=pad">
+                    <div class="card-body">
+                        <h5 class="card-title">Zapatillas urbanas</h5>
+                        <p class="card-text">Calzado moderno y hermoso para todas</p>
+                        <p class="fw-bold">$55.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://media.falabella.com/falabellaPE/883377199/w=1500,h=1500,fit=pad">
+                    <div class="card-body">
+                        <h5 class="card-title">Botas</h5>
+                        <p class="card-text">Ideales para diversas ocasiones, desde atuendos casuales hasta
+                eventos más formales.</p>
+                        <p class="fw-bold">$46.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://media.falabella.com/falabellaPE/883359101/w=1500,h=1500,fit=pad">
+                    <div class="card-body">
+                        <h5 class="card-title">Ballerinas</h5>
+                        <p class="card-text">Comodas para tus salidas</p>
+                        <p class="fw-bold">$75.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Zapatillas Deportivas', 42.00, '40')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script>
+    function agregarAlCarrito(nombre, precio, talla) {
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        carrito.push({ nombre, precio, talla });
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        Swal.fire({
+            title: "Felicidades!",
+            text: nombre + " lo agragaste al carrito",
+            icon: "success"
+        });
+    }
+    </script>
+</body>
+</html>
