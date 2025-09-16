@@ -1,29 +1,29 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bg-primary {
-    background-color: #bbdcff !important; 
+  background-color: #bbdcff !important;
 }
 
 .btn-primary {
-    background-color: #7fb7f3;
-    border-color: #007bff;
+  background-color: #7fb7f3;
+  border-color: #007bff;
 }
 
 .btn-primary:hover {
-    background-color: #173753;
-    border-color:#6DAEDB;
+  background-color: #173753;
+  border-color: #6daedb;
 }
 
 .card-img-top {
-    height: 250px;
-    object-fit: cover; 
+  height: 250px;
+  object-fit: cover;
 }
 
 .card {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .form-group {
   margin-bottom: 20px;
@@ -46,13 +46,13 @@ body {
   font-size: 1em;
 }
 
-.oo{
-    background-color:#9BA2FF;
+.oo {
+  background-color: #9ba2ff;
 }
 
-.oo:hover{
-    background-color: rgb(83, 147, 199);
+.oo:hover {
+  background-color: rgb(83, 147, 199);
 }
-.ii{
-    background-color: #1B4353;
+.ii {
+  background-color: #1b4353;
 }
